@@ -2,13 +2,9 @@
 import './globals.css'
 import {Nunito} from 'next/font/google';
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import Navbar
+import Navbar from '@/app/components/navbar/Navbar';
 
-
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Airbnb',
   description: 'Enjoy your vacation',
 }
